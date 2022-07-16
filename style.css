@@ -31,6 +31,28 @@ font-weight:bold}
 	transition-duration: 0.6s;
 }
 
-
+.side {border-radius: 8px;
+	position: absolute;
+	margin-left: -5%;
+	margin-top: -145px;
+	width: 667px;
+	height: 667px;
+	background: url(50.png);}
+	
+.slider {border-radius: 8px;
+	position: absolute;
+	margin-left: 75%;
+	margin-top: 80px;
+	width: 310px;
+	height: 160px;
+	background: url(1.jpg);
+	animation: slide 13s infinite;
+}
+@keyframes slide {
+	25% {background: url(1.jpg);}
+	50% {background: url(2.jpg);}
+	75% {background: url(3.jpg);}
+	100% {background: url(4.jpg);}
+}
 
 
